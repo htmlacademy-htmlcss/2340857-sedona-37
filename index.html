@@ -7,7 +7,7 @@
   </head>
   <body class="page">
     <div class="container">
-        <header class="page-header">
+        <header class="page-header" data-test="header">
             <nav class="page-navigation">
                 <ul class="site-navigation">
                     <a class="page-header-logo-link" href="#"><img class='page-header-logo' src="images/header/logo.svg" width="140" height="70" alt="Логотип SEDONA"/></a>
@@ -18,7 +18,7 @@
                         <a class="site-navigation-link" href="#">О Седоне</a>
                     </li>
                     <li class="site-navigation-item">
-                        <a class="site-navigation-link site-navigation-link-active" href="#">Гостиницы</a>
+                        <a class="site-navigation-link site-navigation-link-active" href="catalog.html">Гостиницы</a>
                     </li>
                 </ul>
                 <ul class="site-navigation user-menu-list">
@@ -45,12 +45,12 @@
                 </ul>
             </nav>
         </header>
-        <main class="main-page">
+        <main class="main-page" data-test="main">
             <h1 class="visually-hidden">Город Седона</h1>
-            <div class="image-containter">
+            <div class="image-containter" data-test="hero">
                 <img class="welcome-text" src="images/welcome.svg" width="458" height="352" alt="Надпись Welcome"/>
             </div>
-            <section class="descriptions">
+            <section class="descriptions" data-test="advantages">
                 <h2 class="visually-hidden">Преимущества</h2>
                 <p class="city-preview-title">
                     Седона — небольшой городок в Аризоне,<br>
@@ -110,7 +110,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="service">
+            <section class="service" data-test="service">
                 <h2 class="visually-hidden">Обслуживание</h2>
                 <p class="service-preview-title"> Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
                 <p class="service-preview">Опытный персонал и качественное обслуживание!</p>
@@ -138,7 +138,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="search-hotel">
+            <section class="search-hotel" data-test="search">
                 <h2 class="visually-hidden">Поиск Гостиницы</h2>
                 <p class="search-hotel-title">Заинтересовались?</p>
                 <p class="search-hotel-description">
@@ -146,7 +146,7 @@
                 </p>
                 <a class="search-link" href="catalog.html">Поиск гостиницы в Седоне</a>
             </section>
-            <section class="mailing">
+            <section class="mailing" data-test="subscribe">
                 <p class="mailing-title">Подпишитесь на рассылку</p>
                 <p class="mailing-description">
                     Только полезная информация и накакого спама, честное бойскаутское!
@@ -160,7 +160,7 @@
                 </form>
             </section>
         </main>
-        <footer class="main-footer">
+        <footer class="main-footer" data-test="footer">
             <ul class="social-network-list">
                 <li class="social-network-item">
                     <a class='social-network-link' href="https://vk.com/htmlacademy">
